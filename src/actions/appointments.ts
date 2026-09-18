@@ -79,8 +79,8 @@ const edit = async (
   const doctorClerkId = process.env.DOCTOR_CLERK_ID
 
   if (
-    user?.id !== appointmentData.patient_clerk_id ||
-    user.id !== doctorClerkId
+    user?.id !== appointmentData.patient_clerk_id &&
+    user?.id !== doctorClerkId
   ) {
     throw new Error('Unauthorized')
   }
