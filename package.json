@@ -1,6 +1,7 @@
 {
   "name": "s2-e4",
   "version": "0.1.0",
+  "packageManager": "pnpm@11.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",

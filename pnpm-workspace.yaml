@@ -1,3 +1,6 @@
+packages:
+  - .
+
 allowBuilds:
   '@clerk/shared': false
   '@prisma/client': false
